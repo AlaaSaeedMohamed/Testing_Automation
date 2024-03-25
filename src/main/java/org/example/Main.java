@@ -54,7 +54,7 @@ public class Main {
       throw new RuntimeException(e);
     }
 
-    driver.findElement(By.xpath("//*[@id=\"Username\"]")).sendKeys("Alaa_Saeed_Mohammed_Mohammed");
+    driver.findElement(By.xpath("//*[@id=\"Username\"]")).sendKeys("------");    // write the Username that you registered with 
 
     try {
       Thread.sleep(1000);
@@ -62,7 +62,7 @@ public class Main {
       throw new RuntimeException(e);
     }
 
-    driver.findElement(By.xpath("//*[@id=\"Password\"]")).sendKeys("1Qaz2Wsx");
+    driver.findElement(By.xpath("//*[@id=\"Password\"]")).sendKeys("------");  //write the password that you registered with 
 
     try {
       Thread.sleep(1000);
